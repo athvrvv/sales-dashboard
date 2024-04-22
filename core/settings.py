@@ -25,7 +25,7 @@ DEVEL   = os.getenv('DEVEL', False)
 SERVER  = os.getenv('DEVEL', '127.0.0.1')
 
 # load production server from .env
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', SERVER]
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '4.228.219.158','atharva.brazilsouth.cloudapp.azure.com']
 
 # Application definition
 
